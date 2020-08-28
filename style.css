@@ -25,7 +25,8 @@ a:hover {
 }
 
 .container {
-	height: 100vh;
+	height: 65vh;
+	scroll-behavior: smooth;
 }
 
 .container .row {
@@ -41,4 +42,9 @@ a:hover {
 
 .container .row img {
 	max-width: 90%;
+}
+
+#go,
+#goUp {
+	height: 40vh;
 }
