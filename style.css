@@ -26,7 +26,6 @@ a:hover {
 
 .container {
 	height: 65vh;
-	scroll-behavior: smooth;
 }
 
 .container .row {
@@ -47,4 +46,16 @@ a:hover {
 #go,
 #goUp {
 	height: 40vh;
+}
+
+.hany-icon {
+	position: fixed;
+	top: 5vh;
+	left: 2.3vw;
+}
+
+.hany-icon img {
+	height: 3rem;
+	width: 3rem;
+	border-radius: 5px;
 }
