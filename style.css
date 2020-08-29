@@ -21,11 +21,31 @@ a,
 a:focus,
 a:hover {
 	color: #fff;
-	font-size: 4rem;
+	font-size: 3rem;
+}
+
+.box0 a {
+	color: #ff1493;
+}
+
+@media only screen and (max-width: 440px) {
+	a,
+	a:focus,
+	a:hover {
+		font-size: 1.2em;
+	}
+	.box0 a {
+		font-size: 2rem;
+	}
+	#goUp img {
+		max-width: 3rem;
+	}
 }
 
 .container {
-	height: 65vh;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 }
 
 .container .row {
@@ -41,11 +61,13 @@ a:hover {
 
 .container .row img {
 	max-width: 90%;
+	border-radius: 10px;
 }
 
 #go,
 #goUp {
-	height: 40vh;
+	height: 22vh;
+	justify-content: center;
 }
 
 .hany-icon {
